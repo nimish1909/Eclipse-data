@@ -21,7 +21,8 @@ public class Arrydata {
    String[] starr = cString.split("");
    int b[]=new int[starr.length];
      for (int i = 0; i < b.length; i++) {
-		System.out.println(b[i]);
+		b[i] = Integer.parseInt(starr[i]);
+		System.out.print(b[i]);
 	}
      sc.close();
 	}
